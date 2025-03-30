@@ -13,7 +13,7 @@ public class DbCon {
             Class.forName("org.postgresql.Driver");
             
             // Update the connection string for PostgreSQL
-            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/shopping", "postgres", "Asita@#java");
+            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/shopping", "postgres", "give your password");
             
             System.out.print("connected");
         }
